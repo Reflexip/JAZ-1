@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="../java/Engine" method="get" enctype="text/plain">
+<form action="Engine" method="get" enctype="text/plain">
 
 Imię<br/>
 	<input name="name" placeholder="Imię"/><br>
