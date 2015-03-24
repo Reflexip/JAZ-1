@@ -11,7 +11,7 @@
 <form action="Engine" method="get" enctype="text/plain">
 
 Imię<br/>
-	<input name="name" placeholder="Imię:"/><br>
+	<input name="name" placeholder="Imię :"/><br>
 Nazwisko<br/>
 	<input name="surname" placeholder="Nazwisko:"/><br/>
 Email<br/>
