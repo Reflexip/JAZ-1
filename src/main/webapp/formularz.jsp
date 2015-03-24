@@ -11,13 +11,13 @@
 <form action="Engine" method="get" enctype="text/plain">
 
 Imię<br/>
-	<input name="name" placeholder="Imię"/><br>
+	<input name="name" placeholder="Imię:"/><br>
 Nazwisko<br/>
-	<input name="surname" placeholder="Nazwisko"/><br/>
+	<input name="surname" placeholder="Nazwisko:"/><br/>
 Email<br/>
-	<input name="email" placeholder="Email"/><br/>
+	<input name="email" placeholder="Email:"/><br/>
 Pracodawca<br/>
-	<input name="employer" placeholder="Pracodawca"/><br/>
+	<input name="employer" placeholder="Pracodawca:"/><br/>
 
 
 <h3>Skąd dowiedziałeś się o konferencji:</h3>
