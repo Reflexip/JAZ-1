@@ -13,7 +13,7 @@ public class Person {
 
 	Person(String name, String surname, String email, String employer, int radio, String other, String whatDoYouDo){
 
-		TranslateRadio translateRadio = new TranslateRadio(radio);
+		
 		
 		this.name 			= name;
 		this.surname 		= surname;
@@ -23,7 +23,7 @@ public class Person {
 		if(radio != 5)
 			this.other 		= "Nic";
 		else 
-			this.other		= translateRadio.radioTranslated;
+			this.other		= new TranslateRadio(radio).radioTranslated;
 		
 		this.whatDoYouDo	= whatDoYouDo;
 		
