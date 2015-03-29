@@ -6,7 +6,7 @@ import javax.servlet.http.HttpSession;
 
 public class CheckAccess {
 	private ArrayList<Person> personsList = new ArrayList<Person>();
-	
+	private boolean access;
 	String sessionId = null;
 	
 	public void addToList(Person person){
@@ -19,8 +19,8 @@ public class CheckAccess {
 
 	public boolean checkAccess(HttpServletRequest request){
 		HttpSession session = request.getSession();
-		if((getListSize() < 5) && sessionId != session.getId()) return true;
-		else return false;
+		access = ((getListSize() < 5) && sessionId != session.getId());
+		return access;
 	}
 	
 	public void setSessionId(HttpServletRequest request){
